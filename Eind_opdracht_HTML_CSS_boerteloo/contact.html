@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Eind opdracht html_css_concept_bedrijf -->
+    <title>BoerteLoo</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header_flex">
+                <div>
+                    <img class="markup_logo_header" src="images/boertelooLogozwartwit.png" alt="logo bedrijf boerteloo">
+                </div>
+                <div class="markup_side_text">Meubels op maat
+                </div>
+            </div>
+            <hr>
+        </header>
+
+        <nav>
+            <ul class="flex_container_nav markup_nav">
+                <li class="markup_nav_li"><a href="index.html">HOME</a></li>
+                <li class="markup_nav_li"><a href="about.html">ONS VERHAAL</a></li>
+                <li class="markup_nav_li"><a href="projecten.html">PROJECTEN</a></li>
+                <li class="markup_nav_li"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <main class="flex_main_contact">
+            <div>
+                <h2>Wij zijn al onderweg!!</h2>
+            </div>
+            <div><iframe src="https://www.youtube.com/embed/T-VbWFzw6LA?start=114" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </main>
+
+        <aside class="markup_total_form">
+            <p>Interesse gekregen in een echte “boerteloo”?
+                laat je gegevens achter en we nemen contact met je op!</p>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="markup_form">
+                    <label for="name">Naam</label>
+                    <input type="text" name="name" id="name" required />
+                </div>
+                <div class="markup_form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div class="markup_form">
+                    <label for="phone">Tel:</label>
+                    <input type="tel" name="phone" id="phone" />
+                </div>
+                <div class="markup_form">
+                    <label for="bericht">Wat kunnen wij voor u doen?</label>
+                    <textarea id="bericht" name="bericht"></textarea>
+                </div>
+                <div class="markup_form">
+                    <label for="file">OPTIE: stuur een foto of bestand mee.</label>
+                    <input id="file" type="file" name="file" />
+                </div>
+                <button type="reset">Reset</button>
+                <button type="submit">verzenden</button>
+
+            </form>
+        </aside>
+        <footer>
+            <hr>
+            <div class="footer_flex">
+                <span>Bekijk ons op instagram</span>
+                <a href="https://www.instagram.com/boerteloo/">
+                    <button class="button_insta"><img src="images/insta.png" alt="logo insta">
+                    </button>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
